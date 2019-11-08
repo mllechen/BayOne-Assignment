@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and developped for a specific assignment.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and developed for a specific assignment.
 
 I am using `json-server` as a full fake REST API, which means the tasks that React component gets is from a simple and easy back end, only a json file `tasks.json`, with REST api routing.
 
