@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.list {
+  list-style: none;
+}
+.hide {
+  display: none;
+}
+.show {
+  border: 1px solid black;
+  background-color: lightblue;
+  font-size: medium;
+}
+.show:hover {
+  border: 1px solid black;
+  background-color: lightblue;
+  font-size: medium;
+  cursor: pointer;
+}
