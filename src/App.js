@@ -70,9 +70,9 @@ class App extends Component {
     // calculate the total number of tasks that can be displayed according to the current group number
     let itemNum = groupNum * 5;
     // if the total number of tasks is greater or equal to the number of tasks in the tasks array, the show more button should not be displayed
-    let buttonStyle = "show";
+    let buttonStyle = "btn show";
     if (itemNum >= tasks.length) {
-      buttonStyle = "hide";
+      buttonStyle = "btn hide";
     }
     return (
       <div>

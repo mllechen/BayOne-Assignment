@@ -8,7 +8,7 @@ const grid = 8;
 const getListStyle = isDraggingOver => ({
   background: isDraggingOver ? "lightblue" : "lightgrey",
   padding: grid,
-  width: 250,
+  width: 360,
   margin: '0 auto'
 });
 

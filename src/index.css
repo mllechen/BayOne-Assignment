@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,27 +10,37 @@ code {
     monospace;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
 .list {
   list-style: none;
 }
+
+.btn {
+  margin-top: 10px;
+  border: 5px solid #f00;
+  background: transparent;
+  color: #f00;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: transparent;
+  transition: background 0.25s ease, color 0.25s ease, box-shadow 0.15s ease;
+  box-shadow: 8px 8px 0 #888;
+}
+
+.btn:hover {
+  color: #fafafa;
+  background: #f00;
+  box-shadow: 4px 4px 0 #888;
+}
+.btn:active {
+  box-shadow: 0 0 0 #888;
+}
+
 .hide {
   display: none;
 }
+
 .show {
-  border: 1px solid black;
-  background-color: lightblue;
-  font-size: medium;
-}
-.show:hover {
-  border: 1px solid black;
-  background-color: lightblue;
-  font-size: medium;
-  cursor: pointer;
+  display: block;
 }
